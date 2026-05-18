@@ -1,0 +1,64 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add_request {
+  background: #007bff;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.add_request:hover {
+  background: #0056b3;
+}
+
+.requests-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.requests-table th,
+.requests-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.requests-table th {
+  background: #f1f1f1;
+}
+
+.action-btn {
+  margin: 0 2px;
+  padding: 4px 10px;
+  font-size: 13px;
+}
+
+.edit-btn { background: #ffc107; }
+.delete-btn { background: #dc3545; color: #fff; }
+.view-details-btn { background: #17a2b8; color: #fff; }
