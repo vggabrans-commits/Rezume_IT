@@ -1,0 +1,99 @@
+body{
+margin: 0;
+padding: 0;
+}
+header{
+height: 150px;
+background: rgb(0, 123, 255);
+}
+.footer{
+display: flex;
+height: 70px;
+background: rgb(0, 123, 255);
+}
+.firs{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: 100%;
+height: 90px;
+margin-bottom: 10px;
+background: rgb(145, 145, 145);
+}
+
+.window{
+    width: 1200px;
+    height: 30px;
+    background: white;
+    padding-left: 4px ;
+    align-content: center;
+}
+
+select {
+    width: 100px;
+    height: 30px;
+}
+.textoption{
+    display: flex;
+    gap: 10px;
+}
+.window2{
+    width: 795px;
+    height: 30px;
+    background: white;
+    padding-left: 4px ;
+    align-content: center;
+}
+.genbut{
+    width: 140px;
+    height: 68px;
+}
+.inp_tx{
+    width: 450px;
+    height: 26px;
+}
+.inp_tx1{
+    width: 200px;
+    height: 26px;
+}
+.second{
+    justify-content: center;
+    display: flex;
+    width:100%;
+    height: 499px;
+    background: rgb(145, 145, 145);
+    gap: 10px;
+}
+.web{
+    display: block;
+    justify-content: center; /* по горизонтали */
+    align-content: center;
+    position: relative;
+    margin-top: 10px;
+    width: 810px;
+    height: 480px;
+    background: green;
+}
+.item1{
+    margin: 5px;
+    width: 800px;
+    height: 40px;
+    border: 1px solid black;
+    background: white;
+}
+
+@media (max-width: 768px){
+    header{
+        height: 100px;
+    }
+    .firs{
+        height:100px;
+    }
+    .second{
+        max-height: 480px;
+    }
+    .footer{
+        height: 50px;
+    }
+}
